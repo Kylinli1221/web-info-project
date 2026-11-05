@@ -1,0 +1,85 @@
+{
+  "actions": {
+    "viewAll": "查看全部",
+    "explore": "了解更多",
+    "contact": "联系我们",
+    "readMore": "阅读详情",
+    "backHome": "返回首页",
+    "retry": "重试"
+  },
+  "nav": {
+    "primary": "主导航",
+    "openMenu": "打开导航菜单",
+    "closeMenu": "关闭导航菜单",
+    "switchLanguage": "切换语言",
+    "homeLabel": "诺川科技首页"
+  },
+  "footer": {
+    "contact": "联系",
+    "follow": "关注我们",
+    "navigation": "网站导航",
+    "icp": "ICP备案",
+    "publicSecurity": "公安备案"
+  },
+  "lists": {
+    "solutionsTitle": "解决方案",
+    "solutionsIntro": "面向真实业务场景的软件能力，从智能应用到数据平台与云原生基础设施。",
+    "casesTitle": "客户案例",
+    "casesIntro": "跨行业数字化实践，以可验证的业务结果衡量技术价值。",
+    "newsTitle": "新闻动态",
+    "newsIntro": "产品进展、工程经验与技术趋势。",
+    "empty": "暂无已发布内容",
+    "previous": "上一页",
+    "next": "下一页",
+    "page": "第 {page} 页"
+  },
+  "detail": {
+    "publishedOn": "发布于",
+    "client": "客户",
+    "industry": "行业",
+    "outcomes": "项目成果",
+    "backToList": "返回列表"
+  },
+  "about": {
+    "eyebrow": "关于我们",
+    "title": "以工程能力，构建长期价值",
+    "intro": "诺川科技专注于软件产品与数字工程，以清晰目标、开放协作和可验证结果服务客户。",
+    "valuesTitle": "我们相信",
+    "value1": "复杂问题值得被清晰拆解",
+    "value2": "系统设计必须面向长期演进",
+    "value3": "技术价值最终由业务结果验证"
+  },
+  "contact": {
+    "eyebrow": "联系我们",
+    "title": "开始一次有价值的技术对话",
+    "intro": "告诉我们你的业务场景、目标与挑战，我们会安排合适的工程师与你沟通。",
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "phone": "电话",
+      "company": "公司",
+      "message": "项目需求",
+      "namePlaceholder": "你的姓名",
+      "emailPlaceholder": "name{'@'}company.com",
+      "phonePlaceholder": "选填",
+      "companyPlaceholder": "公司或团队名称",
+      "messagePlaceholder": "请简要描述业务场景、目标或当前挑战（至少 10 个字符）",
+      "submit": "提交需求",
+      "submitting": "正在提交…",
+      "success": "信息已提交，我们会尽快与你联系。",
+      "error": "提交失败，请稍后重试。",
+      "required": "请填写必填项",
+      "invalidEmail": "请输入有效邮箱"
+    }
+  },
+  "errors": {
+    "notFoundTitle": "页面未找到",
+    "notFoundDescription": "你访问的页面不存在、已移动或尚未发布。",
+    "serverTitle": "服务暂时不可用",
+    "serverDescription": "系统遇到临时问题，请稍后重试。"
+  },
+  "meta": {
+    "defaultTitle": "诺川科技｜软件与数字技术",
+    "defaultDescription": "以人工智能、数据智能和云原生技术，帮助企业构建面向未来的数字能力。"
+  }
+}

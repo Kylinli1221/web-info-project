@@ -1,0 +1,85 @@
+{
+  "actions": {
+    "viewAll": "View all",
+    "explore": "Learn more",
+    "contact": "Contact us",
+    "readMore": "Read more",
+    "backHome": "Back home",
+    "retry": "Try again"
+  },
+  "nav": {
+    "primary": "Primary navigation",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "switchLanguage": "Switch language",
+    "homeLabel": "NEXORA home"
+  },
+  "footer": {
+    "contact": "Contact",
+    "follow": "Follow us",
+    "navigation": "Navigation",
+    "icp": "ICP registration",
+    "publicSecurity": "Public security registration"
+  },
+  "lists": {
+    "solutionsTitle": "Solutions",
+    "solutionsIntro": "Software capabilities for real business scenarios, from intelligent applications to data platforms and cloud-native infrastructure.",
+    "casesTitle": "Case Studies",
+    "casesIntro": "Cross-industry digital practice measured by verifiable business outcomes.",
+    "newsTitle": "News & Insights",
+    "newsIntro": "Product progress, engineering practice, and technology perspectives.",
+    "empty": "No published content yet",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {page}"
+  },
+  "detail": {
+    "publishedOn": "Published",
+    "client": "Client",
+    "industry": "Industry",
+    "outcomes": "Outcomes",
+    "backToList": "Back to list"
+  },
+  "about": {
+    "eyebrow": "ABOUT US",
+    "title": "Engineering that builds lasting value",
+    "intro": "NEXORA is a software product and digital engineering team serving clients with clear goals, open collaboration, and verifiable outcomes.",
+    "valuesTitle": "What we believe",
+    "value1": "Complex problems deserve clear decomposition",
+    "value2": "Systems must be designed to evolve",
+    "value3": "Technology value is proven by business outcomes"
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Start a valuable technical conversation",
+    "intro": "Tell us about your business context, goals, and challenges. We will connect you with the right engineer.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "message": "Project brief",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "name{'@'}company.com",
+      "phonePlaceholder": "Optional",
+      "companyPlaceholder": "Company or team",
+      "messagePlaceholder": "Briefly describe the context, goals, or current challenge (at least 10 characters)",
+      "submit": "Send inquiry",
+      "submitting": "Sending…",
+      "success": "Your message has been received. We will be in touch shortly.",
+      "error": "Unable to send your message. Please try again later.",
+      "required": "This field is required",
+      "invalidEmail": "Enter a valid email"
+    }
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "The page does not exist, has moved, or has not been published.",
+    "serverTitle": "Service temporarily unavailable",
+    "serverDescription": "The system encountered a temporary problem. Please try again later."
+  },
+  "meta": {
+    "defaultTitle": "NEXORA | Software and Digital Technology",
+    "defaultDescription": "AI, data intelligence, and cloud-native technology for future-ready digital capabilities."
+  }
+}
