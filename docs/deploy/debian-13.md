@@ -6,7 +6,7 @@
 
 ## 前置条件
 
-- 一个已解析到服务器公网 IP 的域名（本文以 `your-domain.com` 占位，请全局替换）
+- 域名已解析到服务器公网 IP：`your-domain.com` 和 `www.your-domain.com` 各一条 A 记录（如果只用根域名，可忽略 www 相关的配置和说明）
 - 服务器安全组/防火墙放行 TCP `22`、`80`、`443` 端口
 - 通过 SSH 以 root 或具有 sudo 权限的用户登录服务器
 
@@ -264,6 +264,13 @@ systemctl enable --now nginx
 创建 `/etc/nginx/sites-available/webinfo`：
 
 ```nginx
+# www 跳转到根域名（301，利于 SEO 集中权重）
+server {
+    listen 80;
+    server_name www.your-domain.com;
+    return 301 https://your-domain.com$request_uri;
+}
+
 server {
     listen 80;
     server_name your-domain.com;
@@ -300,10 +307,10 @@ systemctl reload nginx
 
 ```bash
 apt -y install certbot python3-certbot-nginx
-certbot --nginx -d your-domain.com
+certbot --nginx -d your-domain.com -d www.your-domain.com
 ```
 
-按提示输入邮箱、同意条款。certbot 会自动修改 Nginx 配置加入 443 端口和证书路径，并设置 HTTP 跳转 HTTPS。
+按提示输入邮箱、同意条款。certbot 会自动修改 Nginx 配置加入 443 端口和证书路径，并设置 HTTP 跳转 HTTPS；www 的 server 块也会加上 443（保留 301 跳转到根域名）。
 
 验证续期（证书 90 天有效，certbot 通过 systemd timer 自动续期）：
 

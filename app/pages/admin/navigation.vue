@@ -24,7 +24,8 @@ function openCreate() {
 }
 
 function openEdit(item: unknown) {
-  editing.value = structuredClone(item as NavItem)
+  // el-table exposes rows as reactive proxies, which structuredClone cannot copy.
+  editing.value = structuredClone(toRaw(item as NavItem))
   dialog.value = true
 }
 
